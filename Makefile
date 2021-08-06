@@ -1,8 +1,10 @@
 NAME	=	pipex
 SRCS	=	find_exec.c \
 			pipex.c \
+			worker.c \
 			str.c \
 			utils.c \
+			split.c \
 			vec.c
 OBJS	=	$(SRCS:.c=.o)
 CC		=	gcc
